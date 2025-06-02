@@ -1,15 +1,15 @@
-# Spotify End-To-End-Data-Engineering Project
+# 🎵 Spotify End-To-End-Data-Engineering Project
 
-### Introduction
+### 📘 Introduction
 In this project, we will build an ETL (Extract, Transform, Load) pipeline using the Spotify API and AWS. The pipeline will retrieve data from the Spotify API, transform it to a desired format, and load it into an AWS data store for further analysis or reporting. 
 
-### Architecture
+### 🧱 Architecture
 ![Architecture Diagram.](https://github.com/rushi4git/spotify-end-to-end-data-engineering-project/blob/main/spotify_architecture_diagram.jpeg)
 
-### About the Dataset/API
+### 🎧 About the Dataset/API
 This API contains information about music artists, albums and songs - [Spotify API](https://developer.spotify.com/documentation/web-api).
 
-### Services Used
+### ☁️ Services Used
 1. **S3 (Simple Storage Service):** Amazon S3 (Simple Storage Service) is a highly scalable object storage service that can store and retrieve any amount of data from anywhere on the web. It is commonly used to store and distribute large media files, data backups, and static website files.
 
 2. **AWS Lambda:** AWS Lambda is a serverless computing service that lets you run your code without managing servers. You can use Lambda to run code in response to events like changes in S3, DynamoDB, or other AWS services.
@@ -22,7 +22,7 @@ This API contains information about music artists, albums and songs - [Spotify A
 
 6. **Amazon Athena:** Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. You can use Athena to analyze data in your Glue Data Catalog or in other S3 buckets.
 
-### Install Packages
+### 🐍 Install Python Packages
 ```
 pip install pandas
 pip install numpy
